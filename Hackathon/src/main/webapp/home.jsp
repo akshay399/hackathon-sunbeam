@@ -8,8 +8,15 @@
     <script src="jquery-3.6.1.min.js"></script>
     <script src="bootstrap.min.js"></script>
     </head>
+    <style>
+    .center{display: flex;
+  align-items: center;
+  justify-content: center;
+        }
+        
+    </style>
     <body>
-  
+  <div class="center">
        <div class="container">
         <div class="jumbotron text-center">
             <h1>Welcome to Sunbeam Library</h1>
@@ -78,7 +85,7 @@
         
                    
            </div>
-
-       
+</div>
+       <script>console.log("hi")</script>
     </body>
 </html>
